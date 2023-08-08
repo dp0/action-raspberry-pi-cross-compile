@@ -1,0 +1,31 @@
+name: Cross compile for ARM64
+
+on: [push]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    container:
+      image: debian:11
+
+    steps:
+      - name: Check out repo
+        uses: actions/checkout@v3
+
+      - name: Install cross compiler and build utils
+        run: |
+          apt-get update
+          apt-get install -y gcc-aarch64-linux-gnu g++-aarch64-linux-gnu cmake build-essential
+
+      - name: Cross compile
+        run: |
+          mkdir build
+          cd build
+          cmake ..
+          cmake --build .
+
+      - name: Upload binary
+        uses: actions/upload-artifact@v3
+        with:
+          name: hello
+          path: build/hello
