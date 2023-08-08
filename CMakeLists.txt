@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 3.0)
+project(Hello)
+set(CMAKE_C_COMPILER aarch64-linux-gnu-gcc)
+set(CMAKE_CXX_COMPILER aarch64-linux-gnu-g++)
+add_executable(hello hello.cpp)
