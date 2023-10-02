@@ -49,7 +49,7 @@ Debian environment, such as a `debian:11` container running on a GitHub Action.
 No need to download mystery binaries/toolchains!
 
 You can find the GitHub Action configuraton for this repo
-[here in `cross-compile.yml`](https://github.com/dp0/action-raspberry-pi-cross-compile/blob/action/.github/workflows/cross-compile.yml).
+[here in `cross-compile.yml`](https://github.com/dp0/action-raspberry-pi-cross-compile/blob/main/.github/workflows/cross-compile.yml).
 
 ### Usage
 
