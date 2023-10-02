@@ -3,7 +3,7 @@
 ## Introduction
 
 This repo acts as a demo for how a [GitHub
-Action](https://github.com/dp0/action-raspberry-pi-cross-compile/actions/workflows/cross-compile.yml)
+Action](https://github.com/dp0/action-raspberry-pi-cross-compile/actions)
 can be used to cross-compile for an ARM64 Raspberry Pi running Raspberry Pi OS
 (as of 08 August 2023).
 
