@@ -1,5 +1,7 @@
 # GitHub Action Demo for Cross-Compiling for Raspberry Pi (ARM64)
 
+# 🚀 [**ARM64 is now officially supported by GitHub Actions!**](https://github.blog/news-insights/product-news/arm64-on-github-actions-powering-faster-more-efficient-build-systems/) 🚀
+
 ## Introduction
 
 This repo acts as a demo for how a [GitHub
